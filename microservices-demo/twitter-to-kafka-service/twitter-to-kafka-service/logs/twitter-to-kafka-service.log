@@ -14,7 +14,7 @@
 2022-01-13 01:00:52 [pool-1-thread-1] ERROR c.m.t.t.k.s.r.MockKafkaStreamRunner - Error creating twitter status
 twitter4j.TwitterException: Expected ':' after ) at character 128 of {"created_at":"Thu Jan 13 01:00:52 PKT 2022","id":"8464942000254168490","text":"Lorem since Java","user":"2728856481727956107",)
 	at twitter4j.TwitterObjectFactory.createStatus(TwitterObjectFactory.java:57)
-	at com.microservices.twitter.to.kafka.service.runner.MockKafkaStreamRunner.lambda$simulateTwitterStream$0(MockKafkaStreamRunner.java:65)
+	at com.microservices.twitter.to.kafka.service.runner.impl.MockKafkaStreamRunner.lambda$simulateTwitterStream$0(MockKafkaStreamRunner.java:65)
 	at java.base/java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:515)
 	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264)
 	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1128)
