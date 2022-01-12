@@ -399,7 +399,7 @@ java.lang.IllegalStateException: Failed to execute CommandLineRunner
 	at org.apache.maven.surefire.booter.ForkedBooter.execute(ForkedBooter.java:126)
 	at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:418)
 Caused by: java.lang.NullPointerException: null
-	at com.microservices.twitter.to.kafka.service.runner.MockKafkaStreamRunner.start(MockKafkaStreamRunner.java:53)
+	at com.microservices.twitter.to.kafka.service.runner.impl.MockKafkaStreamRunner.start(MockKafkaStreamRunner.java:53)
 	at com.microservices.twitter.to.kafka.service.TwitterToKafkaServiceApplication.run(TwitterToKafkaServiceApplication.java:36)
 	at org.springframework.boot.SpringApplication.callRunner(SpringApplication.java:767)
 	... 73 common frames omitted
@@ -488,7 +488,7 @@ java.lang.IllegalStateException: Failed to execute CommandLineRunner
 	at org.apache.maven.surefire.booter.ForkedBooter.execute(ForkedBooter.java:126)
 	at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:418)
 Caused by: java.lang.NullPointerException: null
-	at com.microservices.twitter.to.kafka.service.runner.MockKafkaStreamRunner.start(MockKafkaStreamRunner.java:53)
+	at com.microservices.twitter.to.kafka.service.runner.impl.MockKafkaStreamRunner.start(MockKafkaStreamRunner.java:53)
 	at com.microservices.twitter.to.kafka.service.TwitterToKafkaServiceApplication.run(TwitterToKafkaServiceApplication.java:36)
 	at org.springframework.boot.SpringApplication.callRunner(SpringApplication.java:767)
 	... 72 common frames omitted
@@ -572,7 +572,7 @@ Caused by: java.lang.IllegalStateException: Failed to execute CommandLineRunner
 	at org.springframework.test.context.cache.DefaultCacheAwareContextLoaderDelegate.loadContext(DefaultCacheAwareContextLoaderDelegate.java:124)
 	... 68 common frames omitted
 Caused by: java.lang.NullPointerException: null
-	at com.microservices.twitter.to.kafka.service.runner.MockKafkaStreamRunner.start(MockKafkaStreamRunner.java:53)
+	at com.microservices.twitter.to.kafka.service.runner.impl.MockKafkaStreamRunner.start(MockKafkaStreamRunner.java:53)
 	at com.microservices.twitter.to.kafka.service.TwitterToKafkaServiceApplication.run(TwitterToKafkaServiceApplication.java:36)
 	at org.springframework.boot.SpringApplication.callRunner(SpringApplication.java:767)
 	... 73 common frames omitted
@@ -668,7 +668,7 @@ java.lang.IllegalStateException: Failed to execute CommandLineRunner
 	at org.apache.maven.surefire.booter.ForkedBooter.execute(ForkedBooter.java:126)
 	at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:418)
 Caused by: java.lang.NullPointerException: null
-	at com.microservices.twitter.to.kafka.service.runner.MockKafkaStreamRunner.start(MockKafkaStreamRunner.java:53)
+	at com.microservices.twitter.to.kafka.service.runner.impl.MockKafkaStreamRunner.start(MockKafkaStreamRunner.java:53)
 	at com.microservices.twitter.to.kafka.service.TwitterToKafkaServiceApplication.run(TwitterToKafkaServiceApplication.java:36)
 	at org.springframework.boot.SpringApplication.callRunner(SpringApplication.java:767)
 	... 73 common frames omitted
@@ -757,7 +757,7 @@ java.lang.IllegalStateException: Failed to execute CommandLineRunner
 	at org.apache.maven.surefire.booter.ForkedBooter.execute(ForkedBooter.java:126)
 	at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:418)
 Caused by: java.lang.NullPointerException: null
-	at com.microservices.twitter.to.kafka.service.runner.MockKafkaStreamRunner.start(MockKafkaStreamRunner.java:53)
+	at com.microservices.twitter.to.kafka.service.runner.impl.MockKafkaStreamRunner.start(MockKafkaStreamRunner.java:53)
 	at com.microservices.twitter.to.kafka.service.TwitterToKafkaServiceApplication.run(TwitterToKafkaServiceApplication.java:36)
 	at org.springframework.boot.SpringApplication.callRunner(SpringApplication.java:767)
 	... 72 common frames omitted
@@ -841,7 +841,7 @@ Caused by: java.lang.IllegalStateException: Failed to execute CommandLineRunner
 	at org.springframework.test.context.cache.DefaultCacheAwareContextLoaderDelegate.loadContext(DefaultCacheAwareContextLoaderDelegate.java:124)
 	... 68 common frames omitted
 Caused by: java.lang.NullPointerException: null
-	at com.microservices.twitter.to.kafka.service.runner.MockKafkaStreamRunner.start(MockKafkaStreamRunner.java:53)
+	at com.microservices.twitter.to.kafka.service.runner.impl.MockKafkaStreamRunner.start(MockKafkaStreamRunner.java:53)
 	at com.microservices.twitter.to.kafka.service.TwitterToKafkaServiceApplication.run(TwitterToKafkaServiceApplication.java:36)
 	at org.springframework.boot.SpringApplication.callRunner(SpringApplication.java:767)
 	... 73 common frames omitted
@@ -937,7 +937,7 @@ java.lang.IllegalStateException: Failed to execute CommandLineRunner
 	at org.apache.maven.surefire.booter.ForkedBooter.execute(ForkedBooter.java:126)
 	at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:418)
 Caused by: java.lang.NullPointerException: null
-	at com.microservices.twitter.to.kafka.service.runner.MockKafkaStreamRunner.start(MockKafkaStreamRunner.java:53)
+	at com.microservices.twitter.to.kafka.service.runner.impl.MockKafkaStreamRunner.start(MockKafkaStreamRunner.java:53)
 	at com.microservices.twitter.to.kafka.service.TwitterToKafkaServiceApplication.run(TwitterToKafkaServiceApplication.java:36)
 	at org.springframework.boot.SpringApplication.callRunner(SpringApplication.java:767)
 	... 73 common frames omitted
@@ -1026,7 +1026,7 @@ java.lang.IllegalStateException: Failed to execute CommandLineRunner
 	at org.apache.maven.surefire.booter.ForkedBooter.execute(ForkedBooter.java:126)
 	at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:418)
 Caused by: java.lang.NullPointerException: null
-	at com.microservices.twitter.to.kafka.service.runner.MockKafkaStreamRunner.start(MockKafkaStreamRunner.java:53)
+	at com.microservices.twitter.to.kafka.service.runner.impl.MockKafkaStreamRunner.start(MockKafkaStreamRunner.java:53)
 	at com.microservices.twitter.to.kafka.service.TwitterToKafkaServiceApplication.run(TwitterToKafkaServiceApplication.java:36)
 	at org.springframework.boot.SpringApplication.callRunner(SpringApplication.java:767)
 	... 72 common frames omitted
@@ -1110,7 +1110,7 @@ Caused by: java.lang.IllegalStateException: Failed to execute CommandLineRunner
 	at org.springframework.test.context.cache.DefaultCacheAwareContextLoaderDelegate.loadContext(DefaultCacheAwareContextLoaderDelegate.java:124)
 	... 68 common frames omitted
 Caused by: java.lang.NullPointerException: null
-	at com.microservices.twitter.to.kafka.service.runner.MockKafkaStreamRunner.start(MockKafkaStreamRunner.java:53)
+	at com.microservices.twitter.to.kafka.service.runner.impl.MockKafkaStreamRunner.start(MockKafkaStreamRunner.java:53)
 	at com.microservices.twitter.to.kafka.service.TwitterToKafkaServiceApplication.run(TwitterToKafkaServiceApplication.java:36)
 	at org.springframework.boot.SpringApplication.callRunner(SpringApplication.java:767)
 	... 73 common frames omitted
@@ -1206,7 +1206,7 @@ java.lang.IllegalStateException: Failed to execute CommandLineRunner
 	at org.apache.maven.surefire.booter.ForkedBooter.execute(ForkedBooter.java:126)
 	at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:418)
 Caused by: java.lang.NullPointerException: null
-	at com.microservices.twitter.to.kafka.service.runner.MockKafkaStreamRunner.start(MockKafkaStreamRunner.java:53)
+	at com.microservices.twitter.to.kafka.service.runner.impl.MockKafkaStreamRunner.start(MockKafkaStreamRunner.java:53)
 	at com.microservices.twitter.to.kafka.service.TwitterToKafkaServiceApplication.run(TwitterToKafkaServiceApplication.java:36)
 	at org.springframework.boot.SpringApplication.callRunner(SpringApplication.java:767)
 	... 73 common frames omitted
@@ -1295,7 +1295,7 @@ java.lang.IllegalStateException: Failed to execute CommandLineRunner
 	at org.apache.maven.surefire.booter.ForkedBooter.execute(ForkedBooter.java:126)
 	at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:418)
 Caused by: java.lang.NullPointerException: null
-	at com.microservices.twitter.to.kafka.service.runner.MockKafkaStreamRunner.start(MockKafkaStreamRunner.java:53)
+	at com.microservices.twitter.to.kafka.service.runner.impl.MockKafkaStreamRunner.start(MockKafkaStreamRunner.java:53)
 	at com.microservices.twitter.to.kafka.service.TwitterToKafkaServiceApplication.run(TwitterToKafkaServiceApplication.java:36)
 	at org.springframework.boot.SpringApplication.callRunner(SpringApplication.java:767)
 	... 72 common frames omitted
@@ -1379,7 +1379,7 @@ Caused by: java.lang.IllegalStateException: Failed to execute CommandLineRunner
 	at org.springframework.test.context.cache.DefaultCacheAwareContextLoaderDelegate.loadContext(DefaultCacheAwareContextLoaderDelegate.java:124)
 	... 68 common frames omitted
 Caused by: java.lang.NullPointerException: null
-	at com.microservices.twitter.to.kafka.service.runner.MockKafkaStreamRunner.start(MockKafkaStreamRunner.java:53)
+	at com.microservices.twitter.to.kafka.service.runner.impl.MockKafkaStreamRunner.start(MockKafkaStreamRunner.java:53)
 	at com.microservices.twitter.to.kafka.service.TwitterToKafkaServiceApplication.run(TwitterToKafkaServiceApplication.java:36)
 	at org.springframework.boot.SpringApplication.callRunner(SpringApplication.java:767)
 	... 73 common frames omitted
@@ -1475,7 +1475,7 @@ java.lang.IllegalStateException: Failed to execute CommandLineRunner
 	at org.apache.maven.surefire.booter.ForkedBooter.execute(ForkedBooter.java:126)
 	at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:418)
 Caused by: java.lang.NullPointerException: null
-	at com.microservices.twitter.to.kafka.service.runner.MockKafkaStreamRunner.start(MockKafkaStreamRunner.java:53)
+	at com.microservices.twitter.to.kafka.service.runner.impl.MockKafkaStreamRunner.start(MockKafkaStreamRunner.java:53)
 	at com.microservices.twitter.to.kafka.service.TwitterToKafkaServiceApplication.run(TwitterToKafkaServiceApplication.java:36)
 	at org.springframework.boot.SpringApplication.callRunner(SpringApplication.java:767)
 	... 73 common frames omitted
@@ -1564,7 +1564,7 @@ java.lang.IllegalStateException: Failed to execute CommandLineRunner
 	at org.apache.maven.surefire.booter.ForkedBooter.execute(ForkedBooter.java:126)
 	at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:418)
 Caused by: java.lang.NullPointerException: null
-	at com.microservices.twitter.to.kafka.service.runner.MockKafkaStreamRunner.start(MockKafkaStreamRunner.java:53)
+	at com.microservices.twitter.to.kafka.service.runner.impl.MockKafkaStreamRunner.start(MockKafkaStreamRunner.java:53)
 	at com.microservices.twitter.to.kafka.service.TwitterToKafkaServiceApplication.run(TwitterToKafkaServiceApplication.java:36)
 	at org.springframework.boot.SpringApplication.callRunner(SpringApplication.java:767)
 	... 72 common frames omitted
@@ -1648,7 +1648,7 @@ Caused by: java.lang.IllegalStateException: Failed to execute CommandLineRunner
 	at org.springframework.test.context.cache.DefaultCacheAwareContextLoaderDelegate.loadContext(DefaultCacheAwareContextLoaderDelegate.java:124)
 	... 68 common frames omitted
 Caused by: java.lang.NullPointerException: null
-	at com.microservices.twitter.to.kafka.service.runner.MockKafkaStreamRunner.start(MockKafkaStreamRunner.java:53)
+	at com.microservices.twitter.to.kafka.service.runner.impl.MockKafkaStreamRunner.start(MockKafkaStreamRunner.java:53)
 	at com.microservices.twitter.to.kafka.service.TwitterToKafkaServiceApplication.run(TwitterToKafkaServiceApplication.java:36)
 	at org.springframework.boot.SpringApplication.callRunner(SpringApplication.java:767)
 	... 73 common frames omitted
@@ -1744,7 +1744,7 @@ java.lang.IllegalStateException: Failed to execute CommandLineRunner
 	at org.apache.maven.surefire.booter.ForkedBooter.execute(ForkedBooter.java:126)
 	at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:418)
 Caused by: java.lang.NullPointerException: null
-	at com.microservices.twitter.to.kafka.service.runner.MockKafkaStreamRunner.start(MockKafkaStreamRunner.java:53)
+	at com.microservices.twitter.to.kafka.service.runner.impl.MockKafkaStreamRunner.start(MockKafkaStreamRunner.java:53)
 	at com.microservices.twitter.to.kafka.service.TwitterToKafkaServiceApplication.run(TwitterToKafkaServiceApplication.java:37)
 	at org.springframework.boot.SpringApplication.callRunner(SpringApplication.java:767)
 	... 73 common frames omitted
@@ -1833,7 +1833,7 @@ java.lang.IllegalStateException: Failed to execute CommandLineRunner
 	at org.apache.maven.surefire.booter.ForkedBooter.execute(ForkedBooter.java:126)
 	at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:418)
 Caused by: java.lang.NullPointerException: null
-	at com.microservices.twitter.to.kafka.service.runner.MockKafkaStreamRunner.start(MockKafkaStreamRunner.java:53)
+	at com.microservices.twitter.to.kafka.service.runner.impl.MockKafkaStreamRunner.start(MockKafkaStreamRunner.java:53)
 	at com.microservices.twitter.to.kafka.service.TwitterToKafkaServiceApplication.run(TwitterToKafkaServiceApplication.java:37)
 	at org.springframework.boot.SpringApplication.callRunner(SpringApplication.java:767)
 	... 72 common frames omitted
@@ -1917,7 +1917,7 @@ Caused by: java.lang.IllegalStateException: Failed to execute CommandLineRunner
 	at org.springframework.test.context.cache.DefaultCacheAwareContextLoaderDelegate.loadContext(DefaultCacheAwareContextLoaderDelegate.java:124)
 	... 68 common frames omitted
 Caused by: java.lang.NullPointerException: null
-	at com.microservices.twitter.to.kafka.service.runner.MockKafkaStreamRunner.start(MockKafkaStreamRunner.java:53)
+	at com.microservices.twitter.to.kafka.service.runner.impl.MockKafkaStreamRunner.start(MockKafkaStreamRunner.java:53)
 	at com.microservices.twitter.to.kafka.service.TwitterToKafkaServiceApplication.run(TwitterToKafkaServiceApplication.java:37)
 	at org.springframework.boot.SpringApplication.callRunner(SpringApplication.java:767)
 	... 73 common frames omitted
@@ -2013,7 +2013,7 @@ java.lang.IllegalStateException: Failed to execute CommandLineRunner
 	at org.apache.maven.surefire.booter.ForkedBooter.execute(ForkedBooter.java:126)
 	at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:418)
 Caused by: java.lang.NullPointerException: null
-	at com.microservices.twitter.to.kafka.service.runner.MockKafkaStreamRunner.start(MockKafkaStreamRunner.java:53)
+	at com.microservices.twitter.to.kafka.service.runner.impl.MockKafkaStreamRunner.start(MockKafkaStreamRunner.java:53)
 	at com.microservices.twitter.to.kafka.service.TwitterToKafkaServiceApplication.run(TwitterToKafkaServiceApplication.java:35)
 	at org.springframework.boot.SpringApplication.callRunner(SpringApplication.java:767)
 	... 73 common frames omitted
@@ -2102,7 +2102,7 @@ java.lang.IllegalStateException: Failed to execute CommandLineRunner
 	at org.apache.maven.surefire.booter.ForkedBooter.execute(ForkedBooter.java:126)
 	at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:418)
 Caused by: java.lang.NullPointerException: null
-	at com.microservices.twitter.to.kafka.service.runner.MockKafkaStreamRunner.start(MockKafkaStreamRunner.java:53)
+	at com.microservices.twitter.to.kafka.service.runner.impl.MockKafkaStreamRunner.start(MockKafkaStreamRunner.java:53)
 	at com.microservices.twitter.to.kafka.service.TwitterToKafkaServiceApplication.run(TwitterToKafkaServiceApplication.java:35)
 	at org.springframework.boot.SpringApplication.callRunner(SpringApplication.java:767)
 	... 72 common frames omitted
@@ -2186,7 +2186,7 @@ Caused by: java.lang.IllegalStateException: Failed to execute CommandLineRunner
 	at org.springframework.test.context.cache.DefaultCacheAwareContextLoaderDelegate.loadContext(DefaultCacheAwareContextLoaderDelegate.java:124)
 	... 68 common frames omitted
 Caused by: java.lang.NullPointerException: null
-	at com.microservices.twitter.to.kafka.service.runner.MockKafkaStreamRunner.start(MockKafkaStreamRunner.java:53)
+	at com.microservices.twitter.to.kafka.service.runner.impl.MockKafkaStreamRunner.start(MockKafkaStreamRunner.java:53)
 	at com.microservices.twitter.to.kafka.service.TwitterToKafkaServiceApplication.run(TwitterToKafkaServiceApplication.java:35)
 	at org.springframework.boot.SpringApplication.callRunner(SpringApplication.java:767)
 	... 73 common frames omitted

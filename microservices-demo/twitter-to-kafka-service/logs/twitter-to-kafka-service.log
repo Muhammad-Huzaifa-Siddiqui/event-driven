@@ -16,7 +16,7 @@ java.lang.IllegalStateException: Failed to execute CommandLineRunner
 	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1290)
 	at com.microservices.twitter.to.kafka.service.TwitterToKafkaServiceApplication.main(TwitterToKafkaServiceApplication.java:28)
 Caused by: java.lang.NullPointerException: Cannot invoke "java.lang.Integer.intValue()" because the return value of "com.microservices.demo.config.TwitterToKafkaServiceConfigData.getMockMinLength()" is null
-	at com.microservices.twitter.to.kafka.service.runner.MockKafkaStreamRunner.start(MockKafkaStreamRunner.java:53)
+	at com.microservices.twitter.to.kafka.service.runner.impl.MockKafkaStreamRunner.start(MockKafkaStreamRunner.java:53)
 	at com.microservices.twitter.to.kafka.service.TwitterToKafkaServiceApplication.run(TwitterToKafkaServiceApplication.java:36)
 	at org.springframework.boot.SpringApplication.callRunner(SpringApplication.java:767)
 	... 5 common frames omitted
@@ -858,3 +858,64 @@ We're super excited about this issue! Lo…
 https://t.co/5ZByUpC9cH
 2022-01-13 03:39:38 [Twitter4J Async Dispatcher[0]] INFO  c.m.t.t.k.s.l.TwitterKafkaStatusListener - Twitter Status with Text RT @noel_sylviane: Rejet de mon amendement visant à réintégrer les 15000 #soignants suspendus. Situation kafkaïenne où le @gouvernementFR p…
 2022-01-13 03:39:39 [Twitter4J Async Dispatcher[0]] INFO  c.m.t.t.k.s.l.TwitterKafkaStatusListener - Twitter Status with Text RT @charts_k: “Spring Day” has surpassed 300 million streams on Spotify, @BTS_twt’s 11th song to achieve this! https://t.co/p8MSsNgV86
+2022-01-13 03:42:35 [main] INFO  c.m.t.t.k.s.TwitterToKafkaServiceApplication - Starting TwitterToKafkaServiceApplication using Java 15 on DESKTOP-IKMKPH1 with PID 7372 (D:\New folder\event-driven\microservices-demo\twitter-to-kafka-service\target\classes started by Huzaifa in D:\New folder\event-driven\microservices-demo)
+2022-01-13 03:42:35 [main] INFO  c.m.t.t.k.s.TwitterToKafkaServiceApplication - No active profile set, falling back to default profiles: default
+2022-01-13 03:42:36 [main] INFO  c.m.t.t.k.s.TwitterToKafkaServiceApplication - Started TwitterToKafkaServiceApplication in 0.462 seconds (JVM running for 0.866)
+2022-01-13 03:42:36 [main] INFO  c.m.t.t.k.s.TwitterToKafkaServiceApplication - App Starts...
+2022-01-13 03:42:36 [main] INFO  c.m.t.t.k.s.TwitterToKafkaServiceApplication - [Java, Microservices, Spring, Kafka, Elasticsearch]
+2022-01-13 03:42:36 [main] INFO  c.m.t.t.k.s.TwitterToKafkaServiceApplication - Hello Microservices!
+2022-01-13 03:42:36 [Twitter Stream consumer /  [1][initializing]] INFO  twitter4j.TwitterStreamImpl - Establishing connection.
+2022-01-13 03:42:36 [main] INFO  c.m.t.t.k.s.r.i.TwitterKafkaStreamRunner - Starting filtering twitter stream for keywords[Java, Microservices, Spring, Kafka, Elasticsearch]
+2022-01-13 03:42:36 [Twitter Stream consumer /  [1][Establishing connection]] INFO  twitter4j.TwitterStreamImpl - Connection established.
+2022-01-13 03:42:36 [Twitter Stream consumer /  [1][Establishing connection]] INFO  twitter4j.TwitterStreamImpl - Receiving status stream.
+2022-01-13 03:42:36 [Twitter4J Async Dispatcher[0]] INFO  c.m.t.t.k.s.l.TwitterKafkaStatusListener - Twitter Status with Text RT @venetianviolet: haidar ackermann spring 2013 https://t.co/bbDaUPGXKT
+2022-01-13 03:42:37 [Twitter4J Async Dispatcher[0]] INFO  c.m.t.t.k.s.l.TwitterKafkaStatusListener - Twitter Status with Text RT @charts_k: “Spring Day” has surpassed 300 million streams on Spotify, @BTS_twt’s 11th song to achieve this! https://t.co/p8MSsNgV86
+2022-01-13 03:42:37 [Twitter4J Async Dispatcher[0]] INFO  c.m.t.t.k.s.l.TwitterKafkaStatusListener - Twitter Status with Text Thank you @JessGrose
+2022-01-13 03:42:37 [Twitter4J Async Dispatcher[0]] INFO  c.m.t.t.k.s.l.TwitterKafkaStatusListener - Twitter Status with Text As the spring semester begins, teachers, remember...
+#ElevateTXed @utrgvcep https://t.co/KjuMq86Qta
+2022-01-13 03:42:38 [Twitter4J Async Dispatcher[0]] INFO  c.m.t.t.k.s.l.TwitterKafkaStatusListener - Twitter Status with Text おはよう。今気づいた！まじか！
+ワクワクが止まらん❤
+2022-01-13 03:42:39 [Twitter4J Async Dispatcher[0]] INFO  c.m.t.t.k.s.l.TwitterKafkaStatusListener - Twitter Status with Text The Top 10 Books Leaders Need To Read In Spring 2022 https://t.co/qM3BABucNb https://t.co/cthcKK666g
+2022-01-13 03:42:40 [Twitter4J Async Dispatcher[0]] INFO  c.m.t.t.k.s.l.TwitterKafkaStatusListener - Twitter Status with Text RT @charts_k: “Spring Day” has surpassed 300 million streams on Spotify, @BTS_twt’s 11th song to achieve this! https://t.co/p8MSsNgV86
+2022-01-13 03:42:40 [Twitter4J Async Dispatcher[0]] INFO  c.m.t.t.k.s.l.TwitterKafkaStatusListener - Twitter Status with Text RT @KlutchLlc: Excited to see Our Guy @cadesadler21 at @KSUOwlsBaseball This Spring.
+
+But until then, Enjoy some of these Priceless Player…
+2022-01-13 03:42:41 [Twitter4J Async Dispatcher[0]] INFO  c.m.t.t.k.s.l.TwitterKafkaStatusListener - Twitter Status with Text ❤️‍🔥❤️‍🔥❤️‍🔥❤️‍🔥❤️‍🔥❤️‍🔥❤️‍🔥
+
+#BEFIRST_2ndSingle 
+#BMSG
+#BEFIRST
+2022-01-13 03:42:42 [Twitter4J Async Dispatcher[0]] INFO  c.m.t.t.k.s.l.TwitterKafkaStatusListener - Twitter Status with Text RT @nF7xbm2F6R3R5OQ: 『 Spring 』と詳細を発表しないところが好き🌿🌿🌿
+ワクワクドキドキさせてくれるしさすがだなぁと思っちゃう👏✨
+2ndまでに Gifted. を大切に磨こう🎁✨
+BE:FIRST 🇯🇵✈🌏 Gifted.  
+#befirst_g…
+2022-01-13 03:42:42 [Twitter4J Async Dispatcher[0]] INFO  c.m.t.t.k.s.l.TwitterKafkaStatusListener - Twitter Status with Text RT @synchrofish: If you want to learn more about the ongoing climate crisis and the necessary steps to take us to net zero, please take tim…
+2022-01-13 03:42:42 [Twitter4J Async Dispatcher[0]] INFO  c.m.t.t.k.s.l.TwitterKafkaStatusListener - Twitter Status with Text Our Queen Spring Day!
+2022-01-13 03:42:42 [Twitter4J Async Dispatcher[0]] INFO  c.m.t.t.k.s.l.TwitterKafkaStatusListener - Twitter Status with Text RT @ProperLookout: As @PeterHotez is dedicating his life to vaccinating everyone on the planet, @MichaelEMann is dedicating his life to sav…
+2022-01-13 03:42:43 [Twitter4J Async Dispatcher[0]] INFO  c.m.t.t.k.s.l.TwitterKafkaStatusListener - Twitter Status with Text RT @charts_k: “Spring Day” has surpassed 300 million streams on Spotify, @BTS_twt’s 11th song to achieve this! https://t.co/p8MSsNgV86
+2022-01-13 03:42:43 [Twitter4J Async Dispatcher[0]] INFO  c.m.t.t.k.s.l.TwitterKafkaStatusListener - Twitter Status with Text RT @l0stminhyuk: Ok al parecer los chicos hicieron una sesión de fotos para ICON Magazine y utilizaron ropa Louis Vuitton Spring Summer 202…
+2022-01-13 03:42:44 [Twitter4J Async Dispatcher[0]] INFO  c.m.t.t.k.s.l.TwitterKafkaStatusListener - Twitter Status with Text RT @noel_sylviane: Rejet de mon amendement visant à réintégrer les 15000 #soignants suspendus. Situation kafkaïenne où le @gouvernementFR p…
+2022-01-13 03:42:44 [Twitter4J Async Dispatcher[0]] INFO  c.m.t.t.k.s.l.TwitterKafkaStatusListener - Twitter Status with Text RT @esports_RAGE: 【#RAGEシャドウバース 2022 Spring】
+
+／
+✨1次予選 開催記念✨
+🎉フォロー＆RTキャンペーン🎉
+＼
+
+🔽応募方法
+①RAGEアカウントをフォロー
+②本ツイートをRT
+
+🔥いよいよ今週末開幕🔥
+恒例の1次予選観戦配信👀
+
+🔽…
+2022-01-13 03:42:44 [Twitter4J Async Dispatcher[0]] INFO  c.m.t.t.k.s.l.TwitterKafkaStatusListener - Twitter Status with Text RT @PeterHotez: My view? Omicron like the upper respiratory CoVs will not induce lasting immunity. Assuming this wave subsides in February…
+2022-01-13 03:42:44 [Twitter4J Async Dispatcher[0]] INFO  c.m.t.t.k.s.l.TwitterKafkaStatusListener - Twitter Status with Text #WhatsHappeninglnMyanmar #2022Jan12Coup
+2022-01-13 03:42:44 [Twitter4J Async Dispatcher[0]] INFO  c.m.t.t.k.s.l.TwitterKafkaStatusListener - Twitter Status with Text RT @charts_k: “Spring Day” has surpassed 300 million streams on Spotify, @BTS_twt’s 11th song to achieve this! https://t.co/p8MSsNgV86
+2022-01-13 03:42:45 [Twitter4J Async Dispatcher[0]] INFO  c.m.t.t.k.s.l.TwitterKafkaStatusListener - Twitter Status with Text RT @noel_sylviane: Rejet de mon amendement visant à réintégrer les 15000 #soignants suspendus. Situation kafkaïenne où le @gouvernementFR p…
+2022-01-13 03:42:45 [Twitter4J Async Dispatcher[0]] INFO  c.m.t.t.k.s.l.TwitterKafkaStatusListener - Twitter Status with Text RT @Juno_nokonoko: おかえり😊強火🔥BESTYと素敵なタグの相乗効果だね🙌🙌🙌
+BE:FIRST 🇯🇵✈🌏 Gifted.  
+#befirst_gifted is my favorite song. 
+Check out " #Gifted " by #be…
