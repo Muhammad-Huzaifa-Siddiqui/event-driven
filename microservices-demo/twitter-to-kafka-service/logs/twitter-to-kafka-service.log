@@ -832,3 +832,29 @@ We're super excited about this issue! Lo…
 Who do you want to see CØACH film with? Tag them in the comments!⬇️
 
 It's time for more milking magic!🎩💦 https://t.co/TKZFbJM1V6
+2022-01-13 03:39:32 [main] INFO  c.m.t.t.k.s.TwitterToKafkaServiceApplication - Starting TwitterToKafkaServiceApplication using Java 15 on DESKTOP-IKMKPH1 with PID 10888 (D:\New folder\event-driven\microservices-demo\twitter-to-kafka-service\target\classes started by Huzaifa in D:\New folder\event-driven\microservices-demo)
+2022-01-13 03:39:32 [main] INFO  c.m.t.t.k.s.TwitterToKafkaServiceApplication - No active profile set, falling back to default profiles: default
+2022-01-13 03:39:33 [main] INFO  c.m.t.t.k.s.TwitterToKafkaServiceApplication - Started TwitterToKafkaServiceApplication in 0.461 seconds (JVM running for 0.863)
+2022-01-13 03:39:33 [main] INFO  c.m.t.t.k.s.TwitterToKafkaServiceApplication - App Starts...
+2022-01-13 03:39:33 [main] INFO  c.m.t.t.k.s.TwitterToKafkaServiceApplication - [Java, Microservices, Spring, Kafka, Elasticsearch]
+2022-01-13 03:39:33 [main] INFO  c.m.t.t.k.s.TwitterToKafkaServiceApplication - Hello Microservices!
+2022-01-13 03:39:33 [Twitter Stream consumer /  [1][initializing]] INFO  twitter4j.TwitterStreamImpl - Establishing connection.
+2022-01-13 03:39:33 [main] INFO  c.m.t.t.k.s.r.i.TwitterKafkaStreamRunner - Starting filtering twitter stream for keywords[Java, Microservices, Spring, Kafka, Elasticsearch]
+2022-01-13 03:39:34 [Twitter Stream consumer /  [1][Establishing connection]] INFO  twitter4j.TwitterStreamImpl - Connection established.
+2022-01-13 03:39:34 [Twitter Stream consumer /  [1][Establishing connection]] INFO  twitter4j.TwitterStreamImpl - Receiving status stream.
+2022-01-13 03:39:34 [Twitter4J Async Dispatcher[0]] INFO  c.m.t.t.k.s.l.TwitterKafkaStatusListener - Twitter Status with Text RT @charts_k: “Spring Day” has surpassed 300 million streams on Spotify, @BTS_twt’s 11th song to achieve this! https://t.co/p8MSsNgV86
+2022-01-13 03:39:35 [Twitter4J Async Dispatcher[0]] INFO  c.m.t.t.k.s.l.TwitterKafkaStatusListener - Twitter Status with Text RT @globalARMYforc: “Spring Day” by @BTS_twt becomes their 11th song to reach 300 MILLION streams on Spotify!! https://t.co/ni9tbLx6SJ
+2022-01-13 03:39:35 [Twitter4J Async Dispatcher[0]] INFO  c.m.t.t.k.s.l.TwitterKafkaStatusListener - Twitter Status with Text RT @fashionbebe514: 🐱🐹🐢🐶🐝 ICON Magazine May Issue
+
+⭐️ Louis Vuitton Spring Summer 2022 Collection
+
+We're super excited about this issue! Lo…
+2022-01-13 03:39:36 [Twitter4J Async Dispatcher[0]] INFO  c.m.t.t.k.s.l.TwitterKafkaStatusListener - Twitter Status with Text RT @TheLovelyRomeo1: It's blurry but boy did I enjoy myself! I can't wait for Spring now! ❤️😻❤️ https://t.co/i7XnOgIhpw
+2022-01-13 03:39:36 [Twitter4J Async Dispatcher[0]] INFO  c.m.t.t.k.s.l.TwitterKafkaStatusListener - Twitter Status with Text RT @noel_sylviane: Rejet de mon amendement visant à réintégrer les 15000 #soignants suspendus. Situation kafkaïenne où le @gouvernementFR p…
+2022-01-13 03:39:37 [Twitter4J Async Dispatcher[0]] INFO  c.m.t.t.k.s.l.TwitterKafkaStatusListener - Twitter Status with Text RT @charts_k: “Spring Day” has surpassed 300 million streams on Spotify, @BTS_twt’s 11th song to achieve this! https://t.co/p8MSsNgV86
+2022-01-13 03:39:38 [Twitter4J Async Dispatcher[0]] INFO  c.m.t.t.k.s.l.TwitterKafkaStatusListener - Twitter Status with Text RT @gp_pulipaka: IoT 2021 in Review. #BigData #Analytics #DataScience #AI #MachineLearning #IoT #IIoT #PyTorch #Python #RStats #TensorFlow…
+2022-01-13 03:39:38 [Twitter4J Async Dispatcher[0]] INFO  c.m.t.t.k.s.l.TwitterKafkaStatusListener - Twitter Status with Text @perlapearl0 Tbh my expectation for c/ctv spring gala is really low, esp now that he gonna start filming, coz usually participants need to rehearse several times, & I think rehearsal will already start next week. Olympics.. hmm maybe, I hope so, it's really a big event 🤞
+2022-01-13 03:39:38 [Twitter4J Async Dispatcher[0]] INFO  c.m.t.t.k.s.l.TwitterKafkaStatusListener - Twitter Status with Text TBT to when the Cardinali invented the NFT. Here is @thr33som3s season 7 legend Curt Flood handing over a 1/1 he just minted to his top collector. 
+https://t.co/5ZByUpC9cH
+2022-01-13 03:39:38 [Twitter4J Async Dispatcher[0]] INFO  c.m.t.t.k.s.l.TwitterKafkaStatusListener - Twitter Status with Text RT @noel_sylviane: Rejet de mon amendement visant à réintégrer les 15000 #soignants suspendus. Situation kafkaïenne où le @gouvernementFR p…
+2022-01-13 03:39:39 [Twitter4J Async Dispatcher[0]] INFO  c.m.t.t.k.s.l.TwitterKafkaStatusListener - Twitter Status with Text RT @charts_k: “Spring Day” has surpassed 300 million streams on Spotify, @BTS_twt’s 11th song to achieve this! https://t.co/p8MSsNgV86
