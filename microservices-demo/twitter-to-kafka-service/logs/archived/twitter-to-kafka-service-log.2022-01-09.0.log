@@ -1,0 +1,11 @@
+2022-01-09 20:33:37 [main] INFO  c.m.t.t.k.s.TwitterToKafkaServiceApplication - Starting TwitterToKafkaServiceApplication using Java 15 on DESKTOP-IKMKPH1 with PID 8752 (E:\microservices-demo\twitter-to-kafka-service\target\classes started by Huzaifa in E:\microservices-demo)
+2022-01-09 20:33:37 [main] INFO  c.m.t.t.k.s.TwitterToKafkaServiceApplication - No active profile set, falling back to default profiles: default
+2022-01-09 20:33:37 [main] INFO  c.m.t.t.k.s.TwitterToKafkaServiceApplication - Started TwitterToKafkaServiceApplication in 0.498 seconds (JVM running for 0.972)
+2022-01-09 20:33:37 [main] INFO  c.m.t.t.k.s.TwitterToKafkaServiceApplication - App Starts...
+2022-01-09 20:33:37 [main] INFO  c.m.t.t.k.s.TwitterToKafkaServiceApplication - [Java, Microservices, Spring, Kafka, Elasticsearch]
+2022-01-09 20:36:55 [main] INFO  c.m.t.t.k.s.TwitterToKafkaServiceApplication - Starting TwitterToKafkaServiceApplication using Java 15 on DESKTOP-IKMKPH1 with PID 7716 (E:\microservices-demo\twitter-to-kafka-service\target\classes started by Huzaifa in E:\microservices-demo)
+2022-01-09 20:36:55 [main] INFO  c.m.t.t.k.s.TwitterToKafkaServiceApplication - No active profile set, falling back to default profiles: default
+2022-01-09 20:36:55 [main] INFO  c.m.t.t.k.s.TwitterToKafkaServiceApplication - Started TwitterToKafkaServiceApplication in 0.7 seconds (JVM running for 1.314)
+2022-01-09 20:36:55 [main] INFO  c.m.t.t.k.s.TwitterToKafkaServiceApplication - App Starts...
+2022-01-09 20:36:55 [main] INFO  c.m.t.t.k.s.TwitterToKafkaServiceApplication - [Java, Microservices, Spring, Kafka, Elasticsearch]
+2022-01-09 20:36:55 [main] INFO  c.m.t.t.k.s.TwitterToKafkaServiceApplication - Hello Microservices
