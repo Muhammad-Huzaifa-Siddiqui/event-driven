@@ -7,20 +7,40 @@
         <sourceOutputDir name="target/generated-sources/annotations" />
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
-        <module name="twitter-to-kafka-service" />
+        <module name="docker-compose" />
+        <module name="kafka-producer" />
+        <module name="kafka-admin" />
+        <module name="kafka1" />
+        <module name="kafka" />
         <module name="app-config-data" />
+        <module name="twitter-to-kafka-service" />
+        <module name="kafka-model" />
       </profile>
     </annotationProcessing>
     <bytecodeTargetLevel>
       <module name="app-config-data" target="11" />
+      <module name="docker-compose" target="11" />
+      <module name="kafka" target="11" />
+      <module name="kafka-admin" target="11" />
+      <module name="kafka-model" target="11" />
+      <module name="kafka-producer" target="11" />
+      <module name="kafka1" target="11" />
       <module name="microservices-demo" target="11" />
       <module name="twitter-to-kafka-service" target="11" />
+      <module name="untitled" target="11" />
     </bytecodeTargetLevel>
   </component>
   <component name="JavacSettings">
     <option name="ADDITIONAL_OPTIONS_OVERRIDE">
       <module name="app-config-data" options="-parameters" />
+      <module name="docker-compose" options="-parameters" />
+      <module name="kafka" options="-parameters" />
+      <module name="kafka-admin" options="-parameters" />
+      <module name="kafka-model" options="-parameters" />
+      <module name="kafka-producer" options="-parameters" />
+      <module name="kafka1" options="-parameters" />
       <module name="twitter-to-kafka-service" options="-parameters" />
+      <module name="untitled" options="-parameters" />
     </option>
   </component>
 </project>

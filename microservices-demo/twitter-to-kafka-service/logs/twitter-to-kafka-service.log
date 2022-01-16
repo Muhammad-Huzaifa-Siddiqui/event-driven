@@ -919,3 +919,66 @@ BE:FIRST 🇯🇵✈🌏 Gifted.
 BE:FIRST 🇯🇵✈🌏 Gifted.  
 #befirst_gifted is my favorite song. 
 Check out " #Gifted " by #be…
+2022-01-13 17:20:58 [main] INFO  c.m.t.t.k.s.TwitterToKafkaServiceApplication - Starting TwitterToKafkaServiceApplication using Java 15 on DESKTOP-IKMKPH1 with PID 8800 (D:\New folder\event-driven\microservices-demo\twitter-to-kafka-service\target\classes started by Huzaifa in D:\New folder\event-driven\microservices-demo)
+2022-01-13 17:20:58 [main] INFO  c.m.t.t.k.s.TwitterToKafkaServiceApplication - No active profile set, falling back to default profiles: default
+2022-01-13 17:20:58 [main] INFO  c.m.t.t.k.s.TwitterToKafkaServiceApplication - Started TwitterToKafkaServiceApplication in 0.679 seconds (JVM running for 1.315)
+2022-01-13 17:20:58 [main] INFO  c.m.t.t.k.s.TwitterToKafkaServiceApplication - App Starts...
+2022-01-13 17:20:58 [main] INFO  c.m.t.t.k.s.TwitterToKafkaServiceApplication - [Java, Microservices, Spring, Kafka, Elasticsearch]
+2022-01-13 17:20:58 [main] INFO  c.m.t.t.k.s.TwitterToKafkaServiceApplication - Hello Microservices!
+2022-01-13 17:20:58 [Twitter Stream consumer /  [1][initializing]] INFO  twitter4j.TwitterStreamImpl - Establishing connection.
+2022-01-13 17:20:58 [main] INFO  c.m.t.t.k.s.r.i.TwitterKafkaStreamRunner - Starting filtering twitter stream for keywords[Java, Microservices, Spring, Kafka, Elasticsearch]
+2022-01-13 17:21:01 [Twitter Stream consumer /  [1][Establishing connection]] INFO  twitter4j.TwitterStreamImpl - Connection established.
+2022-01-13 17:21:01 [Twitter Stream consumer /  [1][Establishing connection]] INFO  twitter4j.TwitterStreamImpl - Receiving status stream.
+2022-01-13 17:21:01 [Twitter4J Async Dispatcher[0]] INFO  c.m.t.t.k.s.l.TwitterKafkaStatusListener - Twitter Status with Text RT @marisahonkai: SPRING FREEBIES and EVENT Part 2 translation
+Src: https://t.co/UitO1tSuGl
+#HonkaiImpact3rd https://t.co/DX1h1rAExq
+2022-01-13 17:21:01 [Twitter4J Async Dispatcher[0]] INFO  c.m.t.t.k.s.l.TwitterKafkaStatusListener - Twitter Status with Text RT @GameIdentityV: Dear Detectives, sparkle and shine twice as bright as we await an incredible update for the Doctor, Coordinator and Viol…
+2022-01-13 17:21:01 [Twitter4J Async Dispatcher[0]] INFO  c.m.t.t.k.s.l.TwitterKafkaStatusListener - Twitter Status with Text God Spring Awakening was good.
+
+Cheers @AlmeidaTheatre https://t.co/tJp2fIwBAO
+2022-01-13 17:21:03 [Twitter4J Async Dispatcher[0]] INFO  c.m.t.t.k.s.l.TwitterKafkaStatusListener - Twitter Status with Text RT @JoshuaBellMusic: For Bruch's birthday: his Violin Concerto No. 1 performed with the New Era Orchestra in Ukraine last spring. https://t…
+2022-01-13 17:21:03 [Twitter4J Async Dispatcher[0]] INFO  c.m.t.t.k.s.l.TwitterKafkaStatusListener - Twitter Status with Text RT @GameIdentityV: Dear Detectives, sparkle and shine twice as bright as we await an incredible update for the Doctor, Coordinator and Viol…
+2022-01-13 17:21:05 [Twitter4J Async Dispatcher[0]] INFO  c.m.t.t.k.s.l.TwitterKafkaStatusListener - Twitter Status with Text RT @JobPreference: NEED a JOB?
+Sign up now https://t.co/rMErDJMv4h
+FREE. NO MIDDLEMEN
+#Job #Java #Programming #Coding #100DaysofCode #DEVCo…
+2022-01-13 17:21:05 [Twitter4J Async Dispatcher[0]] INFO  c.m.t.t.k.s.l.TwitterKafkaStatusListener - Twitter Status with Text 호옥시 이 전시회 같이 가실 분 있나요??👀
+2022-01-13 17:21:06 [Twitter4J Async Dispatcher[0]] INFO  c.m.t.t.k.s.l.TwitterKafkaStatusListener - Twitter Status with Text RT @btsbrasil_offc: [CHART] ‘Spring Day’ ultrapassou 300 MILHÕES de reproduções no Spotify, a 11ª canção do #BTS (@BTS_twt) a conquistar o…
+2022-01-13 17:21:08 [Twitter4J Async Dispatcher[0]] INFO  c.m.t.t.k.s.l.TwitterKafkaStatusListener - Twitter Status with Text RT @YoungParis: 1,000 NFT’s by spring LFG 🔥🚀🚀 @bricktopians cc @nftnextgems  #KingParis 
+-
+#Nft #Nfts #Defi #Crypto  #Ethereum #Bitcoin #Op…
+2022-01-13 17:21:08 [Twitter4J Async Dispatcher[0]] INFO  c.m.t.t.k.s.l.TwitterKafkaStatusListener - Twitter Status with Text ❗ランキング:10位❗(ナイト＆週末セール)
+
+「ヘルシオ ホットクック 2.4L 電気無水鍋（無線LAN/ 音声発話搭載） ホワイト系 KN-HW24G-W」
+メーカ:SHARP
+
+価格:¥69,300✨ポイント2倍✨(21:21)
+
+https://t.co/jkzv89pIyK
+2022-01-13 17:21:09 [Twitter4J Async Dispatcher[0]] INFO  c.m.t.t.k.s.l.TwitterKafkaStatusListener - Twitter Status with Text RT @charts_k: “Spring Day” has surpassed 300 million streams on Spotify, @BTS_twt’s 11th song to achieve this! https://t.co/p8MSsNgV86
+2022-01-13 17:21:09 [Twitter4J Async Dispatcher[0]] INFO  c.m.t.t.k.s.l.TwitterKafkaStatusListener - Twitter Status with Text RT @GameIdentityV: Dear Detectives, sparkle and shine twice as bright as we await an incredible update for the Doctor, Coordinator and Viol…
+2022-01-13 17:21:09 [Twitter4J Async Dispatcher[0]] INFO  c.m.t.t.k.s.l.TwitterKafkaStatusListener - Twitter Status with Text RT @JobPreference: NEED a JOB?
+Sign up now https://t.co/rMErDK45VP
+FREE. NO MIDDLEMEN
+#Job #Java #Programming #Coding #100DaysofCode #DEVCo…
+2022-01-13 17:21:09 [Twitter4J Async Dispatcher[0]] INFO  c.m.t.t.k.s.l.TwitterKafkaStatusListener - Twitter Status with Text This will only be up temporarily, im just testing the waters for a full java/bedrock server!
+2022-01-13 17:21:09 [Twitter4J Async Dispatcher[0]] INFO  c.m.t.t.k.s.l.TwitterKafkaStatusListener - Twitter Status with Text RT @gathara: #BREAKING First African journalist to reach remote Danish capital, Copenhagen, reports rising ethnic tension in region traditi…
+2022-01-13 17:21:09 [Twitter4J Async Dispatcher[0]] INFO  c.m.t.t.k.s.l.TwitterKafkaStatusListener - Twitter Status with Text ❗ランキング：10位❗(電源パーツ)
+
+「電源ユニット SF750 PLATINUM CP-9020186-JP」
+メーカ:Corsair
+
+価格:¥18,678✨
+🔥売り切れ間近🔥(21:21)
+
+https://t.co/tVcGxcZYNh
+2022-01-13 17:21:11 [Twitter4J Async Dispatcher[0]] INFO  c.m.t.t.k.s.l.TwitterKafkaStatusListener - Twitter Status with Text RT @JobPreference: NEED a JOB?
+Sign up now https://t.co/rMErDJMv4h
+FREE. NO MIDDLEMEN
+#Job #Java #Programming #Coding #100DaysofCode #DEVCo…
+2022-01-13 17:21:12 [Twitter4J Async Dispatcher[0]] INFO  c.m.t.t.k.s.l.TwitterKafkaStatusListener - Twitter Status with Text 👀👀👀👀👀👀👀👀👀👀👀👀
+2022-01-13 17:21:12 [Twitter4J Async Dispatcher[0]] INFO  c.m.t.t.k.s.l.TwitterKafkaStatusListener - Twitter Status with Text RT @jinnieslamp: Kmedia reports that #BTSJIN who appeared on “You Quiz on the Block” last spring, has donated the prize money he received f…
+2022-01-13 17:21:13 [Twitter4J Async Dispatcher[0]] INFO  c.m.t.t.k.s.l.TwitterKafkaStatusListener - Twitter Status with Text RT @bora_novakovic: Trijumf javašluka i besmisla!
+
+Na novom Trgu Zvonka Veselinovića, jedinom trgu na kom se niko ne zaustavlja, popucali s…
+2022-01-13 17:21:13 [Twitter4J Async Dispatcher[0]] INFO  c.m.t.t.k.s.l.TwitterKafkaStatusListener - Twitter Status with Text @FourthParfait Secondly, it is Karina, the leader of aespa! Yep, definitely one of the 4th gens. I was born on April 11, 2000, and that makes me the spring princess. 💐 It’d be great pleasure to be a part of you hence my application under your tweet. No need to worry because (...)
